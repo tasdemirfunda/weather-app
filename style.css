@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #d3e1ff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.kart{
+    background-color: #b3b0aede;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+div.kart{
+   
+   width: 380px;
+   padding: 12px;
+   margin: 10px 16px;
+   border-radius: 10px;
+   
+}
+#hizli-sehirler .active{
+    background-color: #3e7bccde;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #eeeaea;
+    font-size: 16px;
+}
+
+input{
+    width: 200px;
+}
