@@ -8,28 +8,34 @@
 </head>
 <body>
     <main class="kart">
-        <h1>Hava Durumu</h1>
+        <h2>Hava Durumu</h2>
         <form id="arama-formu">
            <input 
              id="sehir-input"
              type="text"
              placeholder="Şehir giriniz"   
         />
-        <button type="reset">Temizle</button>
+       
         <button type="submit">Ara</button>
+        <button type="reset">Temizle</button>
         </form>
 
         <p id="mesaj">Bir şehir ara</p>
-        <section id=""sonuc" hidden></section>
+        <section id="sonuc" hidden></section>
     </main>
     <div class="kart" id="hizli-sehirler">
-        
+        <h3>Hızlı Şehirler</h3>
         <button type="button">İstanbul</button>
         <button type="button">Bursa</button>
         <button type="button">Ankara</button>
         <button type="button">İzmir</button>
 
     </div>
+
+    <section class="kart son-sehirler-card">
+        <h3>Son Arananlar</h3>
+        <ul class="son-sehirler-liste" id="son-sehirler"></ul>
+    </section>
 
 
    
